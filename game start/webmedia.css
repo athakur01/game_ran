@@ -1,0 +1,120 @@
+/* Base styles here */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .navbar-toggler {
+    width: 60px;
+    height: 60px;
+    margin-left: 250px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    width: 40px;
+    height: 40px;
+    margin-left: 180px;
+  }
+
+  .navbar-toggler i {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .social a {
+    margin: 0 4px;
+    /* display: table-column; */
+    display: flex !important;
+  }
+
+  .slide img {
+    width: 100%;
+  }
+
+  .slide h1 {
+    font-size: 65px;
+  }
+
+  .right-info h3 {
+    font-size: 30px;
+  }
+  .content p {
+    width: 400px;
+  }
+  .social {
+    display: none;
+  }
+  .game,
+  .feature {
+    width: 100%; /* Make game and feature boxes take full width */
+  }
+  .fosupport {
+    width: 390px;
+  }
+  .fosupport input {
+    width: 350px !important;
+  }
+  .fosupport textarea {
+    width: 350px;
+  }
+  .fosupport button {
+    display: block;
+  }
+  .from {
+    width: 100%;
+  }
+  #contact label {
+    width: 100%;
+  }
+  #contact input,
+  textarea {
+    width: 100%;
+  }
+
+  .gamebox,
+  .feabox {
+    flex-direction: column; /* Stack game and feature boxes vertically */
+  }
+
+  .footer-content {
+    flex-direction: column; /* Stack footer content vertically */
+    padding: 20px 20px;
+    text-align: center;
+  }
+  form {
+    width: 380px;
+  }
+
+  .footlogo {
+    margin: 20px 0; /* Add margin for spacing */
+  }
+  .abox1 {
+    flex-wrap: wrap;
+    width: 380px;
+  }
+  .abox1 .aimage img {
+    width: 430px;
+  }
+  .apara p {
+    width: 400px;
+    display: block;
+  }
+  .abox2 {
+    flex-wrap: wrap;
+    width: 380px;
+  }
+  .abox2 .aimage img {
+    width: 430px;
+  }
+  .apara p {
+    width: 400px;
+    display: block;
+  }
+}
